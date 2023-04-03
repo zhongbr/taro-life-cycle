@@ -49,7 +49,7 @@ webpack 配置，增加对 @zhongbr/taro-life-cycle 的多端文件的处理。
 
 使用需要入口组件接入的生命周期（看到下面的报错时就代表需要修改入口组件），请参考下面的内容修改入口组件：
 
-![img.png](https://img.hicdn.cn/fed/images/20221028/2b28d74f520647052fd88814f31d1073_882x170.png@.webp)
+![img.png](img.png)
 
 根据入口组件的类型：
 
