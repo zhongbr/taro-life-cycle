@@ -1,0 +1,37 @@
+{
+  "name": "@zhongbr/taro-life-cycle",
+  "version": "0.0.0-beta.21",
+  "description": "taro 扩展生命周期",
+  "main": "lib/index.js",
+  "miniprogram": ".",
+  "scripts": {
+    "clean": "rimraf lib",
+    "lib": "npm run clean && tsc"
+  },
+  "files": [
+    "lib",
+    "es"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhongbr/taro-life-cycle.git"
+  },
+  "author": "zhangpanhong",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/types": "^7.19.4",
+    "@tarojs/components": "^3.4.0",
+    "@tarojs/taro": "^3.4.0",
+    "@types/react": "^17.0.50",
+    "@types/react-reconciler": "^0.28.0",
+    "react": "^17.0.0",
+    "react-native": "^0.70.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4",
+    "vue": "^3.2.41"
+  },
+  "dependencies": {
+    "miniprogram-api-typings": "^3.6.0",
+    "page-lifecycle": "^0.1.2"
+  }
+}
